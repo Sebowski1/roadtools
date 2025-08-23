@@ -12,9 +12,8 @@
           <li>Create straight segments, smooth curves, and complex intersections</li>
           <li>Snap new roads precisely with adjustable angle snapping</li>
           <li>Customize road width, color, wetness, and surface details per segment</li>
-          <li>Add traffic lights, crosswalks, and streetlamps (bake or animate)</li>
+          <li>Add traffic lights, crosswalks, and streetlamps </li>
           <li>Save, load, and manage presets for reusable designs</li>
-          <li>Bake roads into static meshes or animations with one button</li>
           <li>Compatible with Blender 4.x+</li>
         </ul>
       </div>
