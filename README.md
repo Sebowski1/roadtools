@@ -27,13 +27,18 @@ To get started creating your roads, in the 3d-viewport open the `N` Panel, click
 
 ### Presets
 this panel let's you load and save road presets. <br>
-In edit mode, select the edges you want to apply the preset to and pick one from the dropdown menu. If the preset doesn't load automatically, press the `load` button. 
+The addon comes with a few premade presets. In edit mode, select the edges you want to apply the preset to and pick one from the dropdown menu. If the preset doesn't load automatically, press the `load` button. 
 
 #### Preset customisation
-Whilst in edit mode, a subpanel `customise road` is available. Opening it reveals ways in which you can customise the selected road edges. 
+Whilst in edit mode, a subpanel `customise road` is available. Opening it reveals ways in which you can customise the selected road edges.
+
+> **Note:** Customising the road edges does not change the hwole preset itself, it only updates attributes for the selection
+
+To apply the customisations, press the `Apply Customisations` button. 
 To make the customisation more responsive, you can use the `live toggle update` button (a white circle to the left of the `Apply Customisations` button).  
 The `live toggle update` lets you apply the changes live to the selected edges without the need to press the `Apply Customisations` button, however it leaves all the customisation menus visible, regardles if they will work for the selected road type. 
 
+#### Save custom presets. 
 
 
 
