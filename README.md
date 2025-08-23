@@ -32,13 +32,16 @@ The addon comes with a few premade presets. In edit mode, select the edges you w
 #### Preset customisation
 Whilst in edit mode, a subpanel `customise road` is available. Opening it reveals ways in which you can customise the selected road edges.
 
-> **Note:** Customising the road edges does not change the whole preset itself, it only updates attributes for the selection
+> **Note:**  Customising the road edges does not change the whole preset itself, it only updates attributes for the selection
 
 To apply the customisations, press the `Apply Customisations` button. 
 To make the customisation more responsive, you can use the `live toggle update` button (a white circle to the left of the `Apply Customisations` button).  
 The `live toggle update` lets you apply the changes live to the selected edges without the need to press the `Apply Customisations` button, however it leaves all the customisation menus visible, regardles if they will work for the selected road type. 
 
-#### Save custom presets. 
+#### Save custom presets
+After customising your road, you can save it as a custom preset. **Make sure the `Live toggle update` button is off**, select the customised edge and press the `Save` button.
+You can upload a custom image for your road pressing the 
+
 
 
 
