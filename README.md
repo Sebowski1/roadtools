@@ -19,5 +19,5 @@ A blender addon that generates customisable roads from edges and intersections f
 2. In Blender: `Edit > Preferences > Add-ons > Install...`
 3. Select the `.zip` and enable **Road Tools**.
 
-# Setup
-To get started creating your roads, in the 3d-viewport open the 'N' Panel, click the 'Road Tools' Subpanel and press the 'Add new road object' button. 
+## Setup
+To get started creating your roads, in the 3d-viewport open the `N` Panel, click the `Road Tools` Subpanel and press the `Add new road object` button. 
