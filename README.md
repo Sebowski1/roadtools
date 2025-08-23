@@ -97,4 +97,10 @@ Road Tools includes two drawing tools: **Straight** and **Turn**.
 > **Warning:** Sometimes the **Turn** tool creates overly dense meshes, which may break intersections.  
 > To fix this, dissolve vertices that are too close together with `Ctrl + X`.
 
+#### Angle Snapping
+The **Angle Snapping** tool lets you create precise road shapes by snapping new segments to a fixed angle relative to the previous road edge.  
+
+- The default snap angle is **5°**.  
+- To set a custom angle, enable **Custom** and enter your preferred value.  
+
 ---
