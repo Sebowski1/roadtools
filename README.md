@@ -145,7 +145,15 @@ The **Edit Road** subpanel lets you customize the properties of intersections an
 
 - **Streetlamps On/Off** – Toggles the streetlamp lights.
 
+---
 
+### Bake Road
+
+- **Bake Road** – Bakes the road geometry using the Geometry Nodes bake system.  
+  - By default, it uses **Still** mode, preserving the road as a single frame.  
+  - If you want to bake animated effects (such as traffic lights changing colors), open the **Geometry Nodes Modifier**, find the **Bake Node**, and set it to **Animation** instead of Still.  
+
+- **Delete Road** – Removes the baked road data.
 
 
 
