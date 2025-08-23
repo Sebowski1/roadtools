@@ -4,7 +4,7 @@
 <tr>
 <td style="width:50%;"><img src="docs/img/highwayrender3.png" alt="Demo" width="100%"></td>
 <td style="width:50%;">
-A blender addon that generates customisable roads from edges and intersections from points.<br>
+A Blender add-on that generates customizable roads from edges and intersections from points.<br>
 
 <ul>
   <li>Generate straight and curved roads</li>
@@ -20,57 +20,81 @@ A blender addon that generates customisable roads from edges and intersections f
 2. In Blender: `Edit > Preferences > Add-ons > Install...`
 3. Select the `.zip` and enable **Road Tools**.
 
+---
+
 ## Usage
 
 ### Add Road Object
-To get started creating your roads, in the 3d-viewport open the `N` Panel, click the `Road Tools` Subpanel and press the `Add new road object` button. This appends the default road object along with it's assets. 
+To get started, open the **3D Viewport** and press **N** to open the side panel.  
+Go to the **Road Tools** subpanel and click **Add New Road Object**.  
+This appends a default road object along with its assets. 
 
 ### Presets
-this panel let's you load and save road presets. <br>
-The addon comes with a few premade presets. In edit mode, select the edges you want to apply the preset to and pick one from the dropdown menu. If the preset doesn't load automatically, press the `load` button. 
+This panel lets you **load and save road presets**.  
+The add-on comes with a few pre-made presets. In Edit Mode, select the edges you want to apply the preset to, then choose one from the dropdown menu.  
+If the preset doesn’t load automatically, press the **Load** button. 
 
-#### Preset customisation
-Whilst in edit mode, a subpanel `customise road` is available. Opening it reveals ways in which you can customise the selected road edges.
+#### Preset Customization
+While in Edit Mode, a subpanel called **Customize Road** is available.  
+Here you can fine-tune the selected road edges.
 
-> **Note:**  Customising the road edges does not change the whole preset itself, it only updates attributes for the selection
+> **Note:** Customizing road edges only changes the selected edges. It does not overwrite the preset itself.
 
-To apply the customisations, press the `Apply Customisations` button. 
-To make the customisation more responsive, you can use the `live toggle update` button (a white circle to the left of the `Apply Customisations` button).  
-The `live toggle update` lets you apply the changes live to the selected edges without the need to press the `Apply Customisations` button, however it leaves all the customisation menus visible, regardles if they will work for the selected road type. 
+- To apply changes, press **Apply Customizations**.  
+- To see changes live, enable the **Live Update Toggle** (the white circle next to Apply).  
+  - Live Update applies changes instantly but leaves all customization menus visible, even if they don’t apply to the current road type.  
 
-#### Save custom presets
-After customising your road, you can save it as a custom preset. **Make sure the `Live toggle update` button is off**, select the customised edge and press the `Save` button.
-You can upload a custom image for your road pressing the image button located to the right of the `Save` button. (square image icon).
+#### Save Custom Presets
+After customizing a road, you can save it as a new preset.  
+- Make sure **Live Update** is turned off.  
+- Select the customized edge and press **Save**.  
+- You can upload a custom thumbnail by pressing the square **image button** next to Save.  
 
-#### Delete presets
-You can delete any preset (other than "!Default") by selecting it from the dropdown menu and pressing the `X` located to the right of the dropdown menu. 
+#### Delete Presets
+To delete a preset (except **!Default**):  
+- Select it from the dropdown menu.  
+- Press the **X** button next to the dropdown.  
 
-### File paths
-Road presets and their image thumbnails have their own files in these locations:
+---
+
+### File Paths
+Road presets and thumbnails are stored here:
 
 **Windows**
-- Preset variables: `C:\Users\<YourName>\AppData\Roaming\Blender Foundation\Blender\<version>\scripts\addons\road_tools\road_presets.json`
-- Preset images: `C:\Users\<YourName>\AppData\Roaming\Blender Foundation\Blender\<version>\scripts\addons\road_tools\images`
+- Presets:  
+  `C:\Users\<YourName>\AppData\Roaming\Blender Foundation\Blender\<version>\scripts\addons\road_tools\road_presets.json`  
+- Images:  
+  `C:\Users\<YourName>\AppData\Roaming\Blender Foundation\Blender\<version>\scripts\addons\road_tools\images`
 
-**MacOS**
-- Preset variables: `/Users/<YourName>/Library/Application Support/Blender/<version>/scripts/addons/road_tools/road_presets.json`
-- Preset images: `/Users/<YourName>/Library/Application Support/Blender/<version>/scripts/addons/road_tools/images`
+**macOS**
+- Presets:  
+  `/Users/<YourName>/Library/Application Support/Blender/<version>/scripts/addons/road_tools/road_presets.json`  
+- Images:  
+  `/Users/<YourName>/Library/Application Support/Blender/<version>/scripts/addons/road_tools/images`
 
 **Linux**
-- Preset variables: `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/road_presets.json`
-- Preset images: `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/images`
+- Presets:  
+  `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/road_presets.json`  
+- Images:  
+  `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/images`
+
+---
 
 ### Draw Road
-This addon offers 2 tools for easier road creation labeled on buttons as `Streight` and `Turns`.
-Pressing the `Straight` button engages a tool for creating streight road segments. Hover above a point in your road object. When you see a green dot appear, you can press the left mouse butotn to engage the drawing of a streight segment. The second left click will confirm the shape. Same applies for the `Turns` tool with the acception that the second left click creates an arc point for the turn and you can conform the road shape with the third left click. 
+Road Tools includes two drawing tools: **Straight** and **Turn**.
 
-> **Warning:**  Sometimes the `turns` tool creates a mesh that is too dence causing some intersections to have a broken shape. To fix this, you should disolve the vertecies which are too close together with `Ctrl + x`.
+- **Straight Tool**  
+  1. Click the **Straight** button.  
+  2. Hover over a vertex of your road object until a green dot appears.  
+  3. Left-click to start drawing, and left-click again to confirm the segment.  
 
-#### Angle Snapping
+- **Turn Tool**  
+  1. Click the **Turn** button.  
+  2. Left-click to start drawing.  
+  3. Second left-click sets the arc point.  
+  4. Third left-click confirms the curve.  
 
+> **Warning:** Sometimes the **Turn** tool creates overly dense meshes, which may break intersections.  
+> To fix this, dissolve vertices that are too close together with `Ctrl + X`.
 
-
-
-
-
-
+---
