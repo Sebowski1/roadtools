@@ -14,3 +14,8 @@ A blender addon that lets you generate customisable roads and intersections with
 </td>
 </tr>
 </table>
+
+## Quick Install
+1. Download the `.zip` from [Blender Market](https://blendermarket.com/your-addon).
+2. In Blender: `Edit > Preferences > Add-ons > Install...`
+3. Select the `.zip` and enable **Road Tools**.
