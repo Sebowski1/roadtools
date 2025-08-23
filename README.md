@@ -34,8 +34,6 @@ This panel lets you **load and save road presets**.
 The add-on comes with a few pre-made presets. In Edit Mode, select the edges you want to apply the preset to, then choose one from the dropdown menu.  
 If the preset doesn’t load automatically, press the **Load** button. 
 
----
-
 #### Preset Customization
 While in Edit Mode, a subpanel called **Customize Road** is available.  
 Here you can fine-tune the selected road edges.
