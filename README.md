@@ -42,6 +42,9 @@ The `live toggle update` lets you apply the changes live to the selected edges w
 After customising your road, you can save it as a custom preset. **Make sure the `Live toggle update` button is off**, select the customised edge and press the `Save` button.
 You can upload a custom image for your road pressing the image button located to the right of the `Save` button. (square image icon).
 
+#### Delete presets
+You can delete any preset (other than "!Default") by selecting it from the dropdown menu and pressing the `X` located to the right of the dropdown menu. 
+
 ### File paths
 Road presets and their image thumbnails have their own files in these locations:
 
