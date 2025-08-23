@@ -104,3 +104,21 @@ The **Angle Snapping** tool lets you create precise road shapes by snapping new 
 - To set a custom angle, enable **Custom** and enter your preferred value.  
 
 ---
+
+### Edit Road
+
+The **Edit Road** subpanel lets you customize the properties of intersections and road segments independently of presets.
+
+**For Points:**
+- **Radius** – Adjusts the size of an intersection (values range from -10 to 10).
+- **Toggle Traffic Lights** – Adds or removes working traffic lights from the intersection.  
+  To change the **global cycle duration** of traffic lights:  
+  1. Select the road object.  
+  2. Open the **Geometry Node Editor**.  
+  3. Enter the **Global Values** node group by pressing `TAB`.  
+  4. Adjust the **Traffic Light Cycle Duration** value (default is 3).
+
+**For Edges:**
+- **Segment Offset** – Offsets the road segment along its width.  
+- **Switch Road Direction** – Reverses the traffic direction (for one-way streets only). Useful when creating highways or interchanges.  
+- **Toggle Crosswalks** – Enables or disables crosswalks on the selected segment.
