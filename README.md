@@ -40,7 +40,22 @@ The `live toggle update` lets you apply the changes live to the selected edges w
 
 #### Save custom presets
 After customising your road, you can save it as a custom preset. **Make sure the `Live toggle update` button is off**, select the customised edge and press the `Save` button.
-You can upload a custom image for your road pressing the 
+You can upload a custom image for your road pressing the image button located to the right of the `Save` button. (square image icon).
+
+#### File paths
+The presets and images for those presets are located in your addons folder:
+
+**Windows**
+- Preset variables: `C:\Users\<YourName>\AppData\Roaming\Blender Foundation\Blender\<version>\scripts\addons\road_tools\road_presets.json`
+- Preset images: `C:\Users\<YourName>\AppData\Roaming\Blender Foundation\Blender\<version>\scripts\addons\road_tools\images`
+
+**MacOS**
+- Preset variables: `/Users/<YourName>/Library/Application Support/Blender/<version>/scripts/addons/road_tools/road_presets.json`
+- Preset images: `/Users/<YourName>/Library/Application Support/Blender/<version>/scripts/addons/road_tools/images`
+
+**Linux**
+- Preset variables: `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/road_presets.json`
+- Preset images: `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/images`
 
 
 
