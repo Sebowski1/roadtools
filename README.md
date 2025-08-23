@@ -60,6 +60,15 @@ Road presets and their image thumbnails have their own files in these locations:
 - Preset variables: `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/road_presets.json`
 - Preset images: `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/images`
 
+### Draw Road
+This addon offers 2 tools for easier road creation labeled on buttons as `Streight` and `Turns`.
+Pressing the `Straight` button engages a tool for creating streight road segments. Hover above a point in your road object. When you see a green dot appear, you can press the left mouse butotn to engage the drawing of a streight segment. The second left click will confirm the shape. Same applies for the `Turns` tool with the acception that the second left click creates an arc point for the turn and you can conform the road shape with the third left click. 
+
+> **Warning:**  Sometimes the `turns` tool creates a mesh that is too dence causing some intersections to have a broken shape. To fix this, you should disolve the vertecies which are too close together with `Ctrl + x`.
+
+#### Angle Snapping
+
+
 
 
 
