@@ -122,3 +122,31 @@ The **Edit Road** subpanel lets you customize the properties of intersections an
 - **Segment Offset** – Offsets the road segment along its width.  
 - **Switch Road Direction** – Reverses the traffic direction (for one-way streets only). Useful when creating highways or interchanges.  
 - **Toggle Crosswalks** – Enables or disables crosswalks on the selected segment.
+
+### Global Values
+
+- **Ground Object** – Selecting a ground object enables automatic bridge generation.  
+
+- **Road Color** – Sets the global road color.  
+  To make road color independent for each edge:  
+  1. Go to **Object Data Properties → Attributes**.  
+  2. Add a new attribute with: **Domain = Edge**, **Type = Color (Float)**.  
+  3. In the **Modifiers** tab, enable the input attribute toggle (small flag icon) next to *Road Color* and pick your new attribute.  
+  4. To assign different colors per edge:  
+     - In **Object Data Properties**, select your new color attribute.  
+     - In the viewport, select the edges you want to recolor.  
+     - Press **F3 → Set Attribute** and choose a color.  
+
+- **Road Wetness %** – Controls the overall wet appearance of roads.  
+  *(Note: wetness is not present in tunnels.)*  
+
+- **Leaves** – Adds scattered leaves to the road surface.  
+  *(Note: leaves are not present in tunnels.)*  
+
+- **Streetlamps On/Off** – Toggles the streetlamp lights.
+
+
+
+
+
+
