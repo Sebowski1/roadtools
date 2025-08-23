@@ -29,10 +29,14 @@ To get started, open the **3D Viewport** and press **N** to open the side panel.
 Go to the **Road Tools** subpanel and click **Add New Road Object**.  
 This appends a default road object along with its assets. 
 
+---
+
 ### Presets
 This panel lets you **load and save road presets**.  
 The add-on comes with a few pre-made presets. In Edit Mode, select the edges you want to apply the preset to, then choose one from the dropdown menu.  
 If the preset doesn’t load automatically, press the **Load** button. 
+
+---
 
 #### Preset Customization
 While in Edit Mode, a subpanel called **Customize Road** is available.  
