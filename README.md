@@ -20,8 +20,6 @@ A Blender add-on that generates customizable roads from edges and intersections 
 2. In Blender: `Edit > Preferences > Add-ons > Install...`
 3. Select the `.zip` and enable **Road Tools**.
 
----
-
 ## Usage
 
 ### Add Road Object
