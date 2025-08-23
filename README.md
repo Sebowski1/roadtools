@@ -32,7 +32,7 @@ The addon comes with a few premade presets. In edit mode, select the edges you w
 #### Preset customisation
 Whilst in edit mode, a subpanel `customise road` is available. Opening it reveals ways in which you can customise the selected road edges.
 
-> **Note:** Customising the road edges does not change the hwole preset itself, it only updates attributes for the selection
+> **Note:** Customising the road edges does not change the whole preset itself, it only updates attributes for the selection
 
 To apply the customisations, press the `Apply Customisations` button. 
 To make the customisation more responsive, you can use the `live toggle update` button (a white circle to the left of the `Apply Customisations` button).  
