@@ -1,24 +1,27 @@
 # Road Tools
 
-<table style="width:100%;">
-<tr>
-<td style="width:50%;"><img src="docs/img/highwayrender3.png" alt="Demo" width="100%"></td>
-<td style="width:50%;">
-**Road Tools** is a powerful Blender add-on for generating fully customizable road networks.  
-It turns simple edges and points into detailed streets, intersections, and highways with just a few clicks.
-
-<ul>
-  <li>Create straight segments, smooth curves, and complex intersections</li>
-  <li>Snap new roads precisely with adjustable angle snapping</li>
-  <li>Customize road width, color, wetness, and surface details per segment</li>
-  <li>Add traffic lights, crosswalks, and streetlamps that can be baked or animated</li>
-  <li>Save, load, and manage presets for fast, reusable road designs</li>
-  <li>Bake roads into static meshes or animated sequences with one button</li>
-  <li>Compatible with Blender 4.x+</li>
-</ul>
-</td>
-</tr>
+<table style="width:100%;border-collapse:collapse;">
+  <tr>
+    <td style="width:50%;vertical-align:top;padding-right:16px;">
+      <img src="docs/img/highwayrender3.png" alt="Demo" style="width:100%;height:auto;">
+    </td>
+    <td style="width:50%;vertical-align:top;">
+      <div style="line-height:1.55;">
+        <p><strong>Road Tools</strong> is a powerful Blender add-on for generating fully customizable road networks. It turns simple edges and points into detailed streets, intersections, and highways with just a few clicks.</p>
+        <ul>
+          <li>Create straight segments, smooth curves, and complex intersections</li>
+          <li>Snap new roads precisely with adjustable angle snapping</li>
+          <li>Customize road width, color, wetness, and surface details per segment</li>
+          <li>Add traffic lights, crosswalks, and streetlamps (bake or animate)</li>
+          <li>Save, load, and manage presets for reusable designs</li>
+          <li>Bake roads into static meshes or animations with one button</li>
+          <li>Compatible with Blender 4.x+</li>
+        </ul>
+      </div>
+    </td>
+  </tr>
 </table>
+
 
 
 ## Quick Install
