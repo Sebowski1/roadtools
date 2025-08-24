@@ -105,6 +105,12 @@ Road presets and thumbnails are stored here:
 ---
 
 ### Draw Road
+<img src="docs/img/draw road.png"
+     alt="Road Tools — Add New Road Object"
+     width="370"
+     align="right"
+     style="margin-left:16px;">
+     
 Road Tools includes two drawing tools: **Straight** and **Turn**.
 
 - **Straight Tool**  
