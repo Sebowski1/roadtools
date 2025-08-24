@@ -45,9 +45,16 @@ This appends a default road object along with its assets.
 ---
 
 ### Presets
+
+<img src="docs/img/presets.png"
+     alt="Road Tools — Presets panel"
+     style="float:right; margin-left:16px; width:320px;">
+
 This panel lets you **load and save road presets**.  
 The add-on comes with a few pre-made presets. In Edit Mode, select the edges you want to apply the preset to, then choose one from the dropdown menu.  
-If the preset doesn’t load automatically, press the **Load** button. 
+If the preset doesn’t load automatically, press the **Load** button.
+
+<div style="clear:both;"></div>
 
 #### Preset Customization
 While in Edit Mode, a subpanel called **Customize Road** is available.  
