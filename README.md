@@ -32,7 +32,7 @@
 
 <img src="docs/img/add road object.png"
      alt="Road Tools — Add New Road Object"
-     width="520"
+     width="420"
      align="right"
      style="margin-left:16px;">
 
@@ -48,7 +48,7 @@ This appends a default road object along with its assets.
 
 <img src="docs/img/presets.png"
      alt="Road Tools — Presets panel"
-     width="520"
+     width="420"
      align="right"
      style="margin-left:16px;">
 
