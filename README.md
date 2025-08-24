@@ -29,9 +29,18 @@
 ## Usage
 
 ### Add Road Object
+
+<img src="docs/img/add-road-object.png"
+     alt="Road Tools — Add New Road Object"
+     width="320"
+     align="right"
+     style="margin-left:16px;">
+
 To get started, open the **3D Viewport** and press **N** to open the side panel.  
 Go to the **Road Tools** subpanel and click **Add New Road Object**.  
-This appends a default road object along with its assets. 
+This appends a default road object along with its assets.
+
+<div style="clear:both;"></div>
 
 ---
 
