@@ -136,7 +136,12 @@ The **Angle Snapping** tool lets you create precise road shapes by snapping new 
 ---
 
 ### Edit Road
-
+<img src="Edit road.png"
+     alt="Road Tools — Presets panel"
+     width="370"
+     align="right"
+     style="margin-left:16px;">
+     
 The **Edit Road** subpanel lets you customize the properties of intersections and road segments independently of presets.
 
 **For Points:**
