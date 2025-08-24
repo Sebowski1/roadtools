@@ -30,7 +30,7 @@
 
 ### Add Road Object
 
-<img src="docs/img/add-road-object.png"
+<img src="docs/img/add road object.png"
      alt="Road Tools — Add New Road Object"
      width="320"
      align="right"
