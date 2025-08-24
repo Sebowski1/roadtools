@@ -136,27 +136,38 @@ The **Angle Snapping** tool lets you create precise road shapes by snapping new 
 ---
 
 ### Edit Road
-<img src="docs/img/Edit road.png"
-     alt="Road Tools — Presets panel"
-     width="370"
-     align="right"
-     style="margin-left:16px;">
-     
-The **Edit Road** subpanel lets you customize the properties of intersections and road segments independently of presets.
 
-**For Points:**
-- **Radius** – Adjusts the size of an intersection (values range from -10 to 10).
-- **Toggle Traffic Lights** – Adds or removes working traffic lights from the intersection.  
-  To change the **global cycle duration** of traffic lights:  
-  1. Select the road object.  
-  2. Open the **Geometry Node Editor**.  
-  3. Enter the **Global Values** node group by pressing `TAB`.  
-  4. Adjust the **Traffic Light Cycle Duration** value (default is 3).
+<table style="width:100%;border-collapse:collapse;">
+  <tr>
+    <td style="width:50%;vertical-align:top;padding-right:16px;">
+      <p>The <strong>Edit Road</strong> subpanel lets you customize the properties of intersections and road segments independently of presets.</p>
 
-**For Edges:**
-- **Segment Offset** – Offsets the road segment along its width.  
-- **Switch Road Direction** – Reverses the traffic direction (for one-way streets only). Useful when creating highways or interchanges.  
-- **Toggle Crosswalks** – Enables or disables crosswalks on the selected segment.
+      <p><strong>For Points:</strong></p>
+      <ul>
+        <li><strong>Radius</strong> – Adjusts the size of an intersection (values range from -10 to 10).</li>
+        <li><strong>Toggle Traffic Lights</strong> – Adds or removes working traffic lights from the intersection.</li>
+      </ul>
+      <p>To change the <strong>global cycle duration</strong> of traffic lights:</p>
+      <ol>
+        <li>Select the road object.</li>
+        <li>Open the <strong>Geometry Node Editor</strong>.</li>
+        <li>Enter the <strong>Global Values</strong> node group by pressing <code>TAB</code>.</li>
+        <li>Adjust the <strong>Traffic Light Cycle Duration</strong> value (default is 3).</li>
+      </ol>
+
+      <p><strong>For Edges:</strong></p>
+      <ul>
+        <li><strong>Segment Offset</strong> – Offsets the road segment along its width.</li>
+        <li><strong>Switch Road Direction</strong> – Reverses the traffic direction (for one-way streets only). Useful when creating highways or interchanges.</li>
+        <li><strong>Toggle Crosswalks</strong> – Enables or disables crosswalks on the selected segment.</li>
+      </ul>
+    </td>
+    <td style="width:50%;vertical-align:top;">
+      <img src="docs/img/Edit%20road.png" alt="Road Tools — Edit road subpanel" style="width:100%;height:auto;">
+    </td>
+  </tr>
+</table>
+
 
 ### Global Values
 
