@@ -136,7 +136,7 @@ The **Angle Snapping** tool lets you create precise road shapes by snapping new 
 ---
 
 ### Edit Road
-<img src="Edit road.png"
+<img src="docs/img/Edit road.png"
      alt="Road Tools — Presets panel"
      width="370"
      align="right"
