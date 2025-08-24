@@ -7,7 +7,7 @@
     </td>
     <td style="width:50%;vertical-align:top;">
       <div style="line-height:1.55;">
-        <p><strong>Road Tools</strong> is a powerful Blender add-on for generating fully customizable road networks. It turns simple edges and points into detailed streets, intersections, and highways with just a few clicks.</p>
+        <p><strong>Road Tools</strong> is a Blender add-on for generating fully customizable road networks. It turns simple edges and points into detailed streets, intersections, and highways with just a few clicks.</p>
         <ul>
           <li>Create straight segments, smooth curves, and complex intersections</li>
           <li>Snap new roads precisely with adjustable angle snapping</li>
