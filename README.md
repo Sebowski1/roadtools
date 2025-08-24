@@ -184,11 +184,17 @@ The **Edit Road** subpanel lets you customize the properties of intersections an
 
 ### Bake Road
 
-- **Bake Road** – Bakes the road geometry using the Geometry Nodes bake system.  
-  - By default, it uses **Still** mode, preserving the road as a single frame.  
-  - If you want to bake animated effects (such as traffic lights changing colors), open the **Geometry Nodes Modifier**, find the **Bake Node**, and set it to **Animation** instead of Still.  
+- **What baking does** – Converts the procedural Geometry Nodes road into a **regular mesh frozen in place** at the current frame.  
+  The baked result **won’t update** if you move control edges/points, change presets, or toggle options.  
+  To reflect changes, **rebake** or **Delete Road** and bake again.
 
-- **Delete Road** – Removes the baked road data.
+- **Why bake?** – Improves playback performance, makes scenes more stable for rendering.
+
+- **Bake Road** – Bakes the road geometry using the Geometry Nodes bake system.  
+  - By default it uses **Still** mode (single-frame bake).  
+  - For animated effects (e.g., traffic lights changing colors), open the **Geometry Nodes Modifier**, find the **Bake Node**, and set it to **Animation** before baking.
+
+- **Delete Bake** – Removes the baked road data so the live, procedural setup becomes editable/ updatable again.
 
 
 
