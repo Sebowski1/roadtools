@@ -23,6 +23,7 @@
 
 ## Supported Versions
 ### 4.4 +
+### 4.5.0 beta
 
 ## Quick Install
 1. Download the `.zip` from [Blender Market](https://blendermarket.com/your-addon).
