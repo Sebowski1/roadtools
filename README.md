@@ -72,7 +72,9 @@ Here you can fine-tune the selected road edges.
 After customizing a road, you can save it as a new preset.  
 - Make sure **Live Update** is turned off.  
 - Select the customized edge and press **Save**.  
-- You can upload a custom thumbnail by pressing the square **image button** next to Save.  
+- You can upload a custom thumbnail by pressing the square **image button** next to Save.
+
+> **Note:** When replacing the existing image with a new one, a blender restart is required to see the changes. 
 
 #### Delete Presets
 To delete a preset (except **!Default**):  
