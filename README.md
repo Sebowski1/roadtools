@@ -21,6 +21,9 @@
   </tr>
 </table>
 
+##Supported Version
+### 4.4 +
+
 ## Quick Install
 1. Download the `.zip` from [Blender Market](https://blendermarket.com/your-addon).
 2. In Blender: `Edit > Preferences > Add-ons > Install...`
