@@ -6,12 +6,12 @@
 - Add-on version: 1.0
 
 ## Drawing tools snap incorrectly
-**Cause:** Angle Snap enabled / wrong custom angle  
+**Cause:** Angle Snap enabled / wrong custom angle.  
 **Fix:** Disable Angle Snap or set desired angle.
 
 ## Intersections look broken
 **Cause:** Overly dense mesh
-**Fix:** Dissolve nearby vertices (`Ctrl+X`) and rebake.
+**Fix:** Dissolve nearby vertices (`Ctrl+X`).
 
 ## Intersections disaply "Incorrect shape"
 **Cause:** Intersections are too "sharp"
