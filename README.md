@@ -21,7 +21,7 @@
   </tr>
 </table>
 
-## Supported Version
+## Supported Versions
 ### 4.4 +
 
 ## Quick Install
