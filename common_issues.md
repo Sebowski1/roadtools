@@ -10,7 +10,7 @@
 **Fix:** Disable Angle Snap or set desired angle.
 
 ## Intersections look broken
-**Cause:** Overly dense mesh
+**Cause:** Overly dense mesh causing the shape to be mangled up.
 **Fix:** Dissolve nearby vertices (`Ctrl+X`).
 
 ## Intersections disaply "Incorrect shape"
