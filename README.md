@@ -203,5 +203,13 @@ The **Edit Road** subpanel lets you customize the properties of intersections an
 - **Delete Bake** – Removes the baked road data so the live, procedural setup becomes editable/ updatable again.
 
 
+---
 
-
+### Pie menu
+- The pie menu for this addon cane be opened by pressing `D` only if the active object is the road object (Object with the "Roads" Geometry nodes modifier)
+- The pie menu includes the following
+  - draw tools (streight, turns)
+  - edit road subpanel
+  - presets panel
+  - angle snapping panel (for the road tools)
+  - a load selected preset button to load the active preset to selected edges. 
