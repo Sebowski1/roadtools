@@ -173,7 +173,7 @@ The **Edit Road** subpanel lets you customize the properties of intersections an
   1. Go to **Object Data Properties → Attributes**.  
   2. Add a new attribute with: **Domain = Edge**, **Type = Color (Float)**.  
   3. In the **Modifiers** tab, enable the input attribute toggle (small flag icon) next to *Road Color* and pick your new attribute.  
-  4. To assign different colors per edge:  
+  4. To assign different colors per edge;  
      - In **Object Data Properties**, select your new color attribute.  
      - In the viewport, select the edges you want to recolor.  
      - Press **F3 → Set Attribute** and choose a color.  
