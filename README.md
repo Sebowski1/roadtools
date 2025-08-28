@@ -31,8 +31,8 @@
 2. In Blender: `Edit > Preferences > Add-ons > Install...`
 3. Select the `.zip` and enable **Road Tools**.
 
-## [Common issues](https://github.com/Sebowski1/roadtools/blob/main/common_issues.md)
-
+## Common issues
+- [Common issues](https://github.com/Sebowski1/roadtools/blob/main/common_issues.md)
 
 ## Usage
 
