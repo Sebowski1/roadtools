@@ -17,9 +17,9 @@
 - **Cause:** Intersections are too "sharp"
 - **Fix:** inscrease the `Radius` for the right vertecies in the `Edit Road` subpanel.
 
-## After deleting road object it is not possible to enter the road tools panel
+## Can't add road object after deleting the previous one
 - **Cause:** When trying to re-add the road object, the original data from the previous road object (assets, materials, nodegroups) are still in the file
-- **Fix:** Try deleting the unused datablocks by purging the unused data `F3` >>> `Purge Unused Data`, or `File` >>> `Cleanup` >>> `Purge Unused Data`.
+- **Fix:** Try deleting the unused datablocks by purging the unused data `F3` >>> `Purge Unused Data`, or `File` >>> `Cleanup` >>> `Purge Unused Data`. You should do this cleanup anytime you delete a road object to prevent your blender file from having a lot of unused datablocks
 
 ## Traffic lights not animating after baking
 - **Cause:** The Bake option set to *Still* by default. This casues the road shape to be     
