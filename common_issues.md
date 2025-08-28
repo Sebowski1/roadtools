@@ -14,8 +14,8 @@
 - **Fix:** Dissolve nearby vertices (`Ctrl+X`).
 
 ## Intersections disaply "Incorrect shape"
-- **Cause:** Intersections are too "sharp"
-- **Fix:** inscrease the `Radius` for the right vertecies in the `Edit Road` subpanel.
+- **Cause:** Intersections are too "sharp" or a point is too close to a nearby  intersection
+- **Fix:** inscrease the `Radius` for the right vertecies in the `Edit Road` subpanel or if the error happens on a road ending, move it further apart from the nearby intersection. 
 
 ## Can't add road object after deleting the previous one
 - **Cause:** When trying to re-add the road object, the original data from the previous road object (assets, materials, nodegroups) are still in the file
