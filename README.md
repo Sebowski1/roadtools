@@ -86,9 +86,7 @@ To delete a preset (except **!Default**):
 - Select it from the dropdown menu.  
 - Press the **X** button next to the dropdown.  
 
----
-
-### File Paths
+#### Preset File Paths
 Road presets and thumbnails are stored here:
 
 **Windows**
