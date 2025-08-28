@@ -89,23 +89,23 @@ To delete a preset (except **!Default**):
 #### Preset File Paths
 Road presets and thumbnails are stored here:
 
-**Windows**
-- Presets:  
-  `C:\Users\<YourName>\AppData\Roaming\Blender Foundation\Blender\<version>\scripts\addons\road_tools\road_presets.json`  
-- Images:  
-  `C:\Users\<YourName>\AppData\Roaming\Blender Foundation\Blender\<version>\scripts\addons\road_tools\images`
+  **Windows**
+  - Presets:  
+    `C:\Users\<YourName>\AppData\Roaming\Blender Foundation\Blender\<version>\scripts\addons\road_tools\road_presets.json`  
+  - Images:  
+    `C:\Users\<YourName>\AppData\Roaming\Blender Foundation\Blender\<version>\scripts\addons\road_tools\images`
 
-**macOS**
-- Presets:  
-  `/Users/<YourName>/Library/Application Support/Blender/<version>/scripts/addons/road_tools/road_presets.json`  
-- Images:  
-  `/Users/<YourName>/Library/Application Support/Blender/<version>/scripts/addons/road_tools/images`
+  **macOS**
+  - Presets:  
+    `/Users/<YourName>/Library/Application Support/Blender/<version>/scripts/addons/road_tools/road_presets.json`  
+  - Images:  
+    `/Users/<YourName>/Library/Application Support/Blender/<version>/scripts/addons/road_tools/images`
 
-**Linux**
-- Presets:  
-  `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/road_presets.json`  
-- Images:  
-  `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/images`
+  **Linux**
+  - Presets:  
+    `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/road_presets.json`  
+  - Images:  
+    `/home/<YourName>/.config/blender/<version>/scripts/addons/road_tools/images`
 
 ---
 
