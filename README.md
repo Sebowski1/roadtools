@@ -24,7 +24,7 @@
 ## Supported Versions
 ### 4.4 +
 ### 4.5.0 beta
-  > (best on OpenGL; Vulcan works fine, but the visual feedback for the road drawing tools is not as clear)
+  > best on OpenGL; Vulcan works fine, but the visual feedback for the road drawing tools is not as clear
 
 ## Quick Install
 1. Download the `.zip` from [Blender Market](https://blendermarket.com/your-addon).
