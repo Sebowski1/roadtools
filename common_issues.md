@@ -17,7 +17,11 @@
 **Cause:** Intersections are too "sharp"
 **Fix:** inscrease the `Radius` for the right vertecies in the `Edit Road` subpanel.
 
-## Traffic lights not animating
+## After deleting road object it is not possible to enter the road tools panel
+**Cause:** When trying to re-add the road object, the original data from the previous road object (assets, materials, nodegroups) are still in the file
+**Fix:** Try deleting the unused datablocks by purging the unused data `F3` >>> `Purge Unused Data`, or `File` >>> `Cleanup` >>> `Purge Unused Data`.
+
+## Traffic lights not animating after baking
 **Cause:** The Bake option set to *Still* by default. This casues the road shape to be     
 **Fix:** In Geometry Nodes Modifier, set Bake Node to *Animation*, then **Bake Road** again.
 
