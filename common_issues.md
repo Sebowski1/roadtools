@@ -9,10 +9,6 @@
 - **Cause:** Angle Snap enabled / wrong custom angle.  
 - **Fix:** Disable Angle Snap or set desired angle.
 
-## Intersections look broken
-- **Cause:** Overly dense mesh causes the shape to become mangled up.
-- **Fix:** Dissolve vertices that are too close to eachother with `Ctrl+X`.
-
 ## Intersections disaply "Incorrect shape"
 - **Cause:** Intersections are too "sharp" or a point is too close to a nearby intersection
 - **Fix:** inscrease the `Radius` for the right vertecies in the `Edit Road` subpanel or if the error happens on a road ending, move it further apart from the nearby intersection. 
