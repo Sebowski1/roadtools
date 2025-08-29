@@ -214,4 +214,8 @@ The **Edit Road** subpanel lets you customize the properties of intersections an
   - edit road subpanel
   - presets panel
   - angle snapping panel (for the road tools)
-  - a load selected preset button to load the active preset to selected edges. 
+  - a load selected preset button to load the active preset to selected edges.
+ 
+## Other
+- filling a face sorrounded fully with road edges creates a concrete island.
+
